@@ -23,7 +23,7 @@ class AlienInvasion:
                     sys.exit()
                     
             # Redibuja la pantalla en cada paso por el bucle.
-            self.screen.fill(self.settings.bg_color)
+            self.screen.fill(self.settings.bg_color )
              
             # Hace visible la última pantalla dibujada.
             pygame.display.flip()
